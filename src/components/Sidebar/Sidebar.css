@@ -21,6 +21,10 @@
     font-size: 1.5rem;
     color: var(--title-color);
     font-weight: 700;
+    transition: 0.3s;
+}
+.nav_link:hover{
+    color: hsl(43,100%,68%);
 }
 .copyright{
     color: hsl(245,15%,65%);

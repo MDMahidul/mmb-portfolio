@@ -56,7 +56,16 @@ img{
   height: auto;
   vertical-align: middle;
 }
-
+/* reuseable */
+.container{
+  max-width: 1080px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+.grid{
+  display: grid;
+}
 .section_title{
   font-size: var(--h1-font-size);
   margin-left: 0.875rem;
