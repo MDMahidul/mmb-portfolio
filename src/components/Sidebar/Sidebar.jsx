@@ -3,6 +3,7 @@ import logo from '../../assets/m_logo.svg';
 import { AiOutlineHome } from "react-icons/ai";
 import { BiUserCircle } from "react-icons/bi";
 import { HiOutlineBriefcase } from "react-icons/hi";
+import { HiOutlinePuzzlePiece } from "react-icons/hi2";
 import { LuGraduationCap } from "react-icons/lu";
 import { IoLayersOutline } from "react-icons/io5";
 import { SlBubbles } from "react-icons/sl";
@@ -26,6 +27,11 @@ const Sidebar = () => {
               <li className="nav_item">
                 <a href="#about" className="nav_link">
                   <BiUserCircle></BiUserCircle>
+                </a>
+              </li>
+              <li className="nav_item">
+                <a href="#skills" className="nav_link">
+                  <HiOutlinePuzzlePiece></HiOutlinePuzzlePiece>
                 </a>
               </li>
               <li className="nav_item">

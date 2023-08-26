@@ -17,8 +17,8 @@ const Home = () => {
             Hire Me
           </a>
           <ScrollDown></ScrollDown>
-        </div>
         <Shapes></Shapes>
+        </div>
       </section>
     );
 };
