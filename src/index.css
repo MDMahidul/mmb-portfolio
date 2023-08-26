@@ -67,6 +67,10 @@ img{
   padding-right: 15px;
   margin: 0 auto;
 }
+.section{
+  padding-top: 7rem;
+  padding-bottom: 2rem;
+}
 .grid{
   display: grid;
 }
