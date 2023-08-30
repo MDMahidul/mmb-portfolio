@@ -1,5 +1,5 @@
 import { SiCss3, SiHtml5, SiBootstrap, SiTailwindcss,SiJavascript,SiReact } from "react-icons/si";
-
+ 
 const Frontend = () => {
     return (
       <div className="skills_content">

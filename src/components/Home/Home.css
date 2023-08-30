@@ -11,6 +11,9 @@
  }
  .home_img{
     margin-bottom: 1.5rem;
+    width: 150px;
+    border-radius: 50%;
+    border: 2px solid #f05252;
  }
  .home_name{
     font-size: var(--h1-font-size);

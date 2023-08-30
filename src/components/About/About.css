@@ -30,18 +30,18 @@
 .about_skills{
     row-gap: 1.25rem;
 }
-.skills_title{
+.skill_title{
     display: flex;
     justify-content: space-between;
     margin-bottom: 1rem;
 }
-.skills_name{
+.skill_name{
     font-size: var(--normal-font-size);
     font-weight: 600;
 }
 .skills_number{
     line-height: 1.2;
-}
+} 
 .skills_bar,.skills_percentage{
     height: 7px;
     border-radius: 0.25rem;
@@ -80,4 +80,8 @@
 }
 .about_title{
     font-size: 1.875rem;
+}
+.about_image{
+    width: 80%;
+    border-radius: 25px;
 }
