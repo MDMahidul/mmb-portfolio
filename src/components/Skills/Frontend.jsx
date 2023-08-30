@@ -2,7 +2,7 @@ import { SiCss3, SiHtml5, SiBootstrap, SiTailwindcss,SiJavascript,SiReact } from
  
 const Frontend = () => {
     return (
-      <div className="skills_content">
+      <div className="skills_content" data-aos="slide-right">
         <h3 className="skills_title">Frontend Developer</h3>
         <div className="skills_box">
           <div className="skills_group">
@@ -27,8 +27,8 @@ const Frontend = () => {
                 <span className="skills_level">Intermediate</span>
               </div>
             </div>
-            </div>
-            <div className="skills_group">
+          </div>
+          <div className="skills_group">
             <div className="skills_data">
               <SiTailwindcss className="skills_icon"></SiTailwindcss>
               <div>

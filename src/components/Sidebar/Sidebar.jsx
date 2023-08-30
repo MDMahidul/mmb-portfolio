@@ -40,7 +40,7 @@ const Sidebar = () => {
                 </a>
               </li>
               <li className="nav_item">
-                <a href="#resume" className="nav_link">
+                <a href="#qualification" className="nav_link">
                   <LuGraduationCap></LuGraduationCap>
                 </a>
               </li>

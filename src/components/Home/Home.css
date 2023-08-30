@@ -5,10 +5,10 @@
     justify-content: center;
     align-items: center;
  }
- .intro{
+ /* .intro{
     min-width: 540px;
     text-align: center;
- }
+ } */
  .home_img{
     margin-bottom: 1.5rem;
     width: 150px;

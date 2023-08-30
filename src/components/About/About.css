@@ -37,7 +37,7 @@
 }
 .skill_name{
     font-size: var(--normal-font-size);
-    font-weight: 600;
+    font-weight: 700;
 }
 .skills_number{
     line-height: 1.2;
