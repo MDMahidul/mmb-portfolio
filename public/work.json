@@ -1,0 +1,74 @@
+[
+    {
+        "id ": 1,
+        "image":"https://i.ibb.co/VgX4bDL/13311397-v617batch2-kul-05-technology-min.jpg",
+        "title":"Work 1",
+        "category":"frontend",
+        "liveDemo":"link_1",
+        "codeLink":"link_2"
+    },
+    {
+        "id ": 2,
+        "image":"https://i.ibb.co/VgX4bDL/13311397-v617batch2-kul-05-technology-min.jpg",
+        "title":"Work 2",
+        "category":"frontend",
+        "liveDemo":"link_1",
+        "codeLink":"link_2"
+    },
+    {
+        "id ": 3,
+        "image":"https://i.ibb.co/VgX4bDL/13311397-v617batch2-kul-05-technology-min.jpg",
+        "title":"Work 3",
+        "category":"frontend",
+        "liveDemo":"link_1",
+        "codeLink":"link_2"
+    },
+    {
+        "id ": 4,
+        "image":"https://i.ibb.co/VgX4bDL/13311397-v617batch2-kul-05-technology-min.jpg",
+        "title":"Work 4",
+        "category":"fullstack",
+        "liveDemo":"link_1",
+        "codeLink":"link_2"
+    },
+    {
+        "id ": 5,
+        "image":"https://i.ibb.co/VgX4bDL/13311397-v617batch2-kul-05-technology-min.jpg",
+        "title":"Work 5",
+        "category":"fullstack",
+        "liveDemo":"link_1",
+        "codeLink":"link_2"
+    },
+    {
+        "id ": 6,
+        "image":"https://i.ibb.co/VgX4bDL/13311397-v617batch2-kul-05-technology-min.jpg",
+        "title":"Work 6",
+        "category":"fullstack",
+        "liveDemo":"link_1",
+        "codeLink":"link_2"
+    },
+    {
+        "id ": 7,
+        "image":"https://i.ibb.co/VgX4bDL/13311397-v617batch2-kul-05-technology-min.jpg",
+        "title":"Work 7",
+        "category":"design",
+        "liveDemo":"link_1",
+        "codeLink":"link_2"
+    },
+    {
+        "id ": 8,
+        "image":"https://i.ibb.co/VgX4bDL/13311397-v617batch2-kul-05-technology-min.jpg",
+        "title":"Work 8",
+        "category":"design",
+        "liveDemo":"link_1",
+        "codeLink":"link_2"
+    },
+    {
+        "id ": 9,
+        "image":"https://i.ibb.co/VgX4bDL/13311397-v617batch2-kul-05-technology-min.jpg",
+        "title":"Work 9",
+        "category":"design",
+        "liveDemo":"link_1",
+        "codeLink":"link_2"
+    }
+]
