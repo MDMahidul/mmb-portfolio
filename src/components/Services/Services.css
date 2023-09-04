@@ -14,6 +14,9 @@
     box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.05); 
 
 }
+/* .services_content:hover{
+    transform: translateY(-10px);
+} */
 .services_content::before{
      content: "";
   position: absolute;

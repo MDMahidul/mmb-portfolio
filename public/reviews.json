@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "title": "John Doe",
+    "subtitle": "Web Developer",
+    "comment": "I'm extremely impressed with your web development skills. You transformed my vision into a stunning website.",
+    "image": "https://i.ibb.co/h8zN7hc/pngtree-businessman-avatar-icon-flat-style-png-image-1917273.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Alice Smith",
+    "subtitle": "Graphic Designer",
+    "comment": "Your design work is top-notch! I love how you brought creativity to every project. Looking forward to more collaborations.",
+    "image": "https://i.ibb.co/9s52wRL/avatar6.png"
+  },
+  {
+    "id": 3,
+    "title": "David Johnson",
+    "subtitle": "E-commerce Owner",
+    "comment": "Thanks to your e-commerce expertise, my online store is thriving. Your attention to detail is unmatched.",
+    "image": "https://i.ibb.co/h8zN7hc/pngtree-businessman-avatar-icon-flat-style-png-image-1917273.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Emily Brown",
+    "subtitle": "Content Writer",
+    "comment": "Your content recommendations have boosted my website's traffic. Your words are pure magic.",
+    "image": "https://i.ibb.co/9s52wRL/avatar6.png"
+  },
+  {
+    "id": 5,
+    "title": "Michael Lee",
+    "subtitle": "SEO Specialist",
+    "comment": "Your SEO strategies have worked wonders for my business. I've seen a significant increase in rankings and organic traffic.",
+    "image": "https://i.ibb.co/h8zN7hc/pngtree-businessman-avatar-icon-flat-style-png-image-1917273.jpg"
+  }
+]

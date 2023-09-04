@@ -2,7 +2,7 @@ import { SiCss3, SiHtml5, SiBootstrap, SiTailwindcss,SiJavascript,SiReact } from
  
 const Frontend = () => {
     return (
-      <div className="skills_content" data-aos="slide-right">
+      <div className="skills_content" data-aos="fade-right">
         <h3 className="skills_title">Frontend Developer</h3>
         <div className="skills_box">
           <div className="skills_group">

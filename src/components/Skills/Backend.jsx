@@ -2,7 +2,7 @@ import { SiPhp, SiNodedotjs, SiExpress, SiMysql,SiMongodb,SiFirebase } from "rea
 
 const Backend = () => {
     return (
-      <div className="skills_content" data-aos="slide-left">
+      <div className="skills_content" data-aos="fade-left">
         <h3 className="skills_title">Backend Developer</h3>
         <div className="skills_box">
           <div className="skills_group">

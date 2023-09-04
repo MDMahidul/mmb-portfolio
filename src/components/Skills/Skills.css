@@ -15,7 +15,7 @@
 }
 .skills_content:hover{
      box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.1); 
-     transform: translateY(-5px);
+     /* transform: translateY(-5px) !important; */
 }
 .skills_title{
     font-size: var(--h3-font-size);

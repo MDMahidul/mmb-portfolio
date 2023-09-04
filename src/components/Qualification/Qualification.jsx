@@ -57,7 +57,7 @@ const Qualification = () => {
               }
             >
               <div className="qualification_data">
-                <div data-aos="slide-right">
+                <div data-aos="fade-right">
                   <h3 className="qualification_title">Web Development</h3>
                   <span className="qualification_subtitle">
                     programming-hero
@@ -77,7 +77,7 @@ const Qualification = () => {
                   <span className="qualification_rounder"></span>
                   <span className="qualification_line"></span>
                 </div>
-                <div data-aos="slide-left">
+                <div data-aos="fade-left">
                   <h3 className="qualification_title">
                     Computer Science & Engineering
                   </h3>
@@ -88,7 +88,7 @@ const Qualification = () => {
                 </div>
               </div>
               <div className="qualification_data">
-                <div data-aos="slide-right">
+                <div data-aos="fade-right">
                   <h3 className="qualification_title">
                     Higher Secondary School Certificate
                   </h3>
@@ -110,7 +110,7 @@ const Qualification = () => {
                   <span className="qualification_rounder"></span>
                   <span className="qualification_line"></span>
                 </div>
-                <div data-aos="slide-left">
+                <div data-aos="fade-left">
                   <h3 className="qualification_title">
                     Secondary School Certificate
                   </h3>
@@ -131,7 +131,7 @@ const Qualification = () => {
               }
             >
               <div className="qualification_data">
-                <div data-aos="slide-right">
+                <div data-aos="fade-right">
                   <h3 className="qualification_title">Jr. Web Developer</h3>
                   <span className="qualification_subtitle">
                     OSCL-Overseas Study Counseling Ltd.
@@ -151,7 +151,7 @@ const Qualification = () => {
                   <span className="qualification_rounder"></span>
                   <span className="qualification_line"></span>
                 </div>
-                <div data-aos="slide-left">
+                <div data-aos="fade-left">
                   <h3 className="qualification_title">Freelancing</h3>
                   <span className="qualification_subtitle">
                     Digital Marketing
@@ -162,7 +162,7 @@ const Qualification = () => {
                 </div>
               </div>
               <div className="qualification_data">
-                <div data-aos="slide-right">
+                <div data-aos="fade-right">
                   <h3 className="qualification_title">
                     Teaching assistant (Intern).
                   </h3>
