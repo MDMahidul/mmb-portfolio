@@ -7,20 +7,22 @@ import Services from './components/Services/Services';
 import Qualification from './components/Qualification/Qualification';
 import Portfolio from './components/Portfolio/Portfolio'
 import Testimonials from './components/Testimonials/Testimonials';
+import Contact from './components/Contact/Contact';
 
 function App() {
 
   return (
     <>
       <Sidebar></Sidebar>
-      <main style={{ marginLeft: "110px" }}>
-        <Home></Home>
-        <About></About>
-        <Skills></Skills>
-        <Services></Services>
+      <main className='main'>
+        <Home/>
+        <About/>
+        <Skills/>
+        <Services/>
         <Qualification/>
         <Portfolio/>
         <Testimonials/>
+        <Contact/>
       </main>
     </>
   );

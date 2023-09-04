@@ -91,3 +91,9 @@
  .active_Tab{
     color: var(--first-color);
  }
+
+ @media screen and (max-width: 1024px){
+    .work_filters{
+        justify-content: center;
+    }
+ }
