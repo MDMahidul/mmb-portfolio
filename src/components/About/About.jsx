@@ -3,6 +3,7 @@ import './About.css';
 import AboutImg from '../../assets/avatar-2.svg'
 import mahi2 from '../../assets/mahidul_2.webp';
 import AboutBox from './AboutBox';
+import CV from '../../assets/MD-Mahidul-Islam.pdf';
 
 const About = () => {
     return (
@@ -17,7 +18,7 @@ const About = () => {
                 experience in web site design and building and customization,
                 also I am good at Graphics Design and Digital Marketing.
               </p>
-              <a href="" className="my-btn">
+              <a download="" href={CV} className="my-btn">
                 Download CV
               </a>
             </div>

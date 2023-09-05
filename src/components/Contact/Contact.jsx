@@ -7,7 +7,7 @@ import { toast } from "react-hot-toast";
 
 const Contact = () => {
     const form = useRef();
-
+ 
     const sendEmail = (e) => {
       e.preventDefault();
 

@@ -1,0 +1,16 @@
+.floatingDiv{
+    justify-content: space-around;
+    background: #fff;
+    box-shadow: var(--shadow);
+    border-radius: 17px;
+    display: flex;
+    align-items: center;
+    padding: 20px 40px 20px 0px;
+    height: 4.5rem;
+}
+.floatingDiv > img{
+    transform: scale(0.4);
+}
+.floatingDiv >span{
+    color: var(--title-color);
+}

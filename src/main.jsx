@@ -5,11 +5,18 @@ import './index.css'
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "aos/dist/aos.css";
 import { Toaster } from "react-hot-toast";
+import Error from './components/Error/Error.jsx'
+import Feedback from './components/Feedback/Feedback.jsx';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App></App>,
+    errorElement: <Error />,
+  },
+  {
+    path: "/feedback",
+    element: <Feedback />,
   },
 ]);
 

@@ -79,8 +79,65 @@
     }
  }
 
- @media screen and (max-width: 1024px){
+ @media screen and (max-width: 992px){
     .home_social-link{
     font-size: 1.125rem;
  }
+}
+
+/* for animation framer motion */
+/* right side styling */
+/* .i-right {
+  flex: 1;
+  position: relative;
+} */
+.i-right > * {
+  position: absolute;
+  z-index: 1;
+}
+.i-right > :nth-child(1) {
+  transform: scale(0.69);
+  margin-left: 25%;
+  top: 19%;
+}
+.i-right > :nth-child(2) {
+ transform: scale(0.67);
+  left: 84%;
+  border-radius: 50%;
+  padding: 2px;
+}
+.i-right > :nth-child(3) {
+  transform: scale(0.67);
+  top: 19%;
+  left: 84%;
+  border-radius: 50%;
+  padding: 5px;
+}
+.com-img{
+   width: 300px;
+   margin-top: 40px;
+   animation: com-ani 2s linear infinite;
+}
+ @keyframes com-ani {
+    0%{
+        top: 29%;
+    }
+    15%{
+        top: 30%;
+    }
+    50%{
+        top: 30%;
+    }
+    100%{
+        top: 29%;
+    }
+ }
+@media screen and (max-width: 768px){
+    .i-right {
+    display: none;
+  }
+}
+@media screen and (max-width: 480px) {
+
+
 }

@@ -6,7 +6,7 @@ import { IoTimeOutline } from "react-icons/io5";
 
 const AboutBox = () => {
     return (
-      <div className="about_boxes grid">
+      <div className="about_boxes grid lg:flex justify-evenly">
         <div className="about_box">
           <AiOutlineBarChart className="about_icon"></AiOutlineBarChart>
           <div>
