@@ -33,7 +33,7 @@ const Contact = () => {
     <section className="container section" id="contact">
       <h2 className="section_title">Get in touch</h2>
       <div className="contact_container container grid">
-        <div className="contact_content">
+        <div className="contact_content" data-aos="fade-right">
           <h3 className="contact_title">Talk to me</h3>
           <div className="contact_info">
             <div className="contact_card">
@@ -76,7 +76,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <div className="contact_content">
+        <div className="contact_content" data-aos="fade-left">
           <h3 className="contact_title">Write me your project</h3>
           <form ref={form} onSubmit={sendEmail} className="contact_form">
             <div className="contact_form-div">

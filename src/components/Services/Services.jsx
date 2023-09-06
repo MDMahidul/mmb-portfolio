@@ -14,7 +14,7 @@ const Services = () => {
       <section className="services container section" id="services">
         <h2 className="section_title">Services</h2>
 
-        <div className="services_container  grid">
+        <div className="services_container  grid" data-aos="fade-up">
           <div className="services_content">
             <div>
               <FaLaptopCode className="services_icon"></FaLaptopCode>

@@ -63,7 +63,7 @@ const Portfolio = () => {
           Graphics
         </span>
       </div>
-      <div  className="work_container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+      <div  className="work_container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3" data-aos="fade-up">
         {filteredItems.map((item) => (
           <ItemCard key={item.id} item={item}></ItemCard>
         ))}

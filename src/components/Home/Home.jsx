@@ -18,7 +18,7 @@ const Home = () => {
     <section className="container home" id="home">
       <div className="intro text-center flex flex-col items-center">
         <div className="text-center">
-          <img src={mahi} alt="" className="home_img" />
+          <img src={mahi} alt="" className="home_img" data-aos="zoom-in" />
         </div>
         <h1 className="home_name">MD. Mahidul Islam</h1>
         <span className="home_education">I'm Full-Stack Developer</span>

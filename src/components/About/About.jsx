@@ -9,7 +9,7 @@ const About = () => {
     return (
       <section className="about container section" id="about">
         <h2 className="section_title"> About Me </h2>
-        <div className="about_container grid">
+        <div className="about_container grid" data-aos="fade-up">
           <img src={mahi2} alt="" className="about_image" />
           <div className="about_data grid">
             <div className="about_info">
