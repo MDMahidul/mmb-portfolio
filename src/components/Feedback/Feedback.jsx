@@ -8,15 +8,12 @@ const Feedback = () => {
         <div>
           <form>
             <div className="hero min-h-screen">
-              <div className="hero-content flex-col lg:flex-row-reverse">
+              <div className="hero-content flex-col  lg:flex-row">
                 <div className="text-center lg:text-left w-1/2 flex flex-col justify-center items-center gap-10">
                   <h3 className="text-2xl text-center mt-5">
                     Share your Feedback & Suggestions
                   </h3>
                   <img className="lg:w-9/12" src={comment} alt="" />
-                  <Link to="/" className="my-btn">
-                    Go Home
-                  </Link>
                 </div>
                 <div className="card flex-shrink-0 w-full max-w-md shadow-2xl">
                   <div className="card-body">
@@ -69,12 +66,12 @@ const Feedback = () => {
                       ></textarea>
                     </div>
                     <div className="form-control">
-                      <p className='text-xs mt-3 text-gray-400'>
+                      <p className="text-xs mt-3 text-gray-400">
                         NB: This may be used as testimonials with your name or
                         alias
                       </p>
                     </div>
-                    <div className="form-control mt-6">
+                    <div className="form-control mt-4">
                       <input
                         type="submit"
                         value="Submit"
@@ -87,6 +84,11 @@ const Feedback = () => {
               </div>
             </div>
           </form>
+          <div className='text-center mb-4'>
+            <Link to="/" className="my-btn">
+              Go Home
+            </Link>
+          </div>
         </div>
       </div>
     );

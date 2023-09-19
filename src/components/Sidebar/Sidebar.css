@@ -23,7 +23,7 @@
     color: var(--title-color);
     font-weight: 700;
     transition: 0.3s;
-}
+} 
 .nav_link:hover{
     color: hsl(43,100%,68%);
 }
@@ -65,4 +65,9 @@
     .show-menu{
         left: 0;
     }
+}
+@media screen and (max-width: 480px){
+    .nav_link{
+    font-size: 1rem;
+} 
 }

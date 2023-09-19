@@ -53,15 +53,15 @@
     display: block;
 }
 .development{
-    width: 80%;
+    width: 75%;
     background-color: rgb(255, 76,96);
 }
 .graphics{
-    width: 60%;
+    width: 50%;
     background-color: rgb(255, 76,96);
 }
 .marketing{
-    width: 50%;
+    width: 40%;
     background-color: rgb(255, 76,96);
 }
 

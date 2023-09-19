@@ -1,74 +1,130 @@
 [
-    {
-        "id ": 1,
-        "image":"https://i.ibb.co/VgX4bDL/13311397-v617batch2-kul-05-technology-min.jpg",
-        "title":"Work 1",
-        "category":"frontend",
-        "liveDemo":"link_1",
-        "codeLink":"link_2"
-    },
-    {
-        "id ": 2,
-        "image":"https://i.ibb.co/VgX4bDL/13311397-v617batch2-kul-05-technology-min.jpg",
-        "title":"Work 2",
-        "category":"frontend",
-        "liveDemo":"link_1",
-        "codeLink":"link_2"
-    },
-    {
-        "id ": 3,
-        "image":"https://i.ibb.co/VgX4bDL/13311397-v617batch2-kul-05-technology-min.jpg",
-        "title":"Work 3",
-        "category":"frontend",
-        "liveDemo":"link_1",
-        "codeLink":"link_2"
-    },
-    {
-        "id ": 4,
-        "image":"https://i.ibb.co/VgX4bDL/13311397-v617batch2-kul-05-technology-min.jpg",
-        "title":"Work 4",
-        "category":"fullstack",
-        "liveDemo":"link_1",
-        "codeLink":"link_2"
-    },
-    {
-        "id ": 5,
-        "image":"https://i.ibb.co/VgX4bDL/13311397-v617batch2-kul-05-technology-min.jpg",
-        "title":"Work 5",
-        "category":"fullstack",
-        "liveDemo":"link_1",
-        "codeLink":"link_2"
-    },
-    {
-        "id ": 6,
-        "image":"https://i.ibb.co/VgX4bDL/13311397-v617batch2-kul-05-technology-min.jpg",
-        "title":"Work 6",
-        "category":"fullstack",
-        "liveDemo":"link_1",
-        "codeLink":"link_2"
-    },
-    {
-        "id ": 7,
-        "image":"https://i.ibb.co/VgX4bDL/13311397-v617batch2-kul-05-technology-min.jpg",
-        "title":"Work 7",
-        "category":"design",
-        "liveDemo":"link_1",
-        "codeLink":"link_2"
-    },
-    {
-        "id ": 8,
-        "image":"https://i.ibb.co/VgX4bDL/13311397-v617batch2-kul-05-technology-min.jpg",
-        "title":"Work 8",
-        "category":"design",
-        "liveDemo":"link_1",
-        "codeLink":"link_2"
-    },
-    {
-        "id ": 9,
-        "image":"https://i.ibb.co/VgX4bDL/13311397-v617batch2-kul-05-technology-min.jpg",
-        "title":"Work 9",
-        "category":"design",
-        "liveDemo":"link_1",
-        "codeLink":"link_2"
-    }
+  {
+    "id ": 1,
+    "image": "https://i.ibb.co/7vhtHRK/portfolio.png",
+    "title": "Portfolio",
+    "category": "frontend",
+    "liveDemo": "https://mahidulislam-6e334.web.app/",
+    "codeLink": "https://github.com/MDMahidul/mmb-portfolio"
+  },
+  {
+    "id ": 2,
+    "image": "https://i.ibb.co/yQFSmSy/teahouse.png",
+    "title": "Tea House",
+    "category": "frontend",
+    "liveDemo": "https://mdmahidul.github.io/tea_house_tailwind/",
+    "codeLink": "https://github.com/MDMahidul/tea_house_tailwind"
+  },
+  {
+    "id ": 5,
+    "image": "https://i.ibb.co/8zLY3Sq/Mexi-Cuisine.png",
+    "title": "MexiCuisine",
+    "category": "fullstack",
+    "liveDemo": "https://chef-recipe-hunter-514c1.web.app/",
+    "codeLink": "https://github.com/MDMahidul/MexiCuisine-chef-recipe-hunter-client"
+  },
+  {
+    "id ": 14,
+    "image": "https://i.ibb.co/VNf2dGr/myhero.png",
+    "title": "My Hero",
+    "category": "fullstack",
+    "liveDemo": "https://my-hero-b1e24.web.app/",
+    "codeLink": "https://github.com/MDMahidul/my-hero-toy-store-client"
+  },
+  {
+    "id ": 10,
+    "image": "https://i.ibb.co/rbF70c2/G3-Architects.png",
+    "title": "G3 Architects",
+    "category": "frontend",
+    "liveDemo": "https://mdmahidul.github.io/assignment_2/",
+    "codeLink": "https://github.com/MDMahidul/assignment_2"
+  },
+  {
+    "id ": 15,
+    "image": "https://i.ibb.co/vcSdVw7/duronto-fisheries.png",
+    "title": "Duronto Fisheries",
+    "category": "frontend",
+    "liveDemo": "https://mmbdurontofisheries.000webhostapp.com/",
+    "codeLink": "https://github.com/MDMahidul/duronto_fisheries"
+  },
+  {
+    "id ": 16,
+    "image": "https://i.ibb.co/pQ4s8cp/bistroo.png",
+    "title": "Bistro Boss",
+    "category": "fullstack",
+    "liveDemo": "https://bistro-boss-90fc4.web.app/",
+    "codeLink": "https://github.com/MDMahidul/bistro-boss-client"
+  },
+  {
+    "id ": 4,
+    "image": "https://i.ibb.co/LkpFtNt/jobportal.png",
+    "title": "ChakriBakri",
+    "category": "fullstack",
+    "liveDemo": "https://remarkable-naiad-75a1dd.netlify.app/",
+    "codeLink": "https://github.com/MDMahidul/chakribakri-career-hub"
+  },
+  {
+    "id ": 6,
+    "image": "https://i.ibb.co/d0Jd8x2/Knowledge-Cafe.png",
+    "title": "Knowledge Cafe",
+    "category": "fullstack",
+    "liveDemo": "https://jazzy-stardust-33db39.netlify.app/",
+    "codeLink": "https://github.com/MDMahidul/knowledge-cafe"
+  },
+  {
+    "id ": 3,
+    "image": "https://i.ibb.co/q5msf2f/personalblog.png",
+    "title": "Personal Blog",
+    "category": "frontend",
+    "liveDemo": "https://profound-longma-d516da.netlify.app/",
+    "codeLink": "https://github.com/MDMahidul/personal_blogsite"
+  },
+  {
+    "id ": 7,
+    "image": "https://i.ibb.co/ZJbG7GK/uk.jpg",
+    "title": "Study In UK",
+    "category": "design",
+    "liveDemo": "https://www.behance.net/gallery/180336121/study-in-UK",
+    "codeLink": "link_2"
+  },
+  {
+    "id ": 8,
+    "image": "https://i.ibb.co/9qchfF4/canada.png",
+    "title": "Study In Canada",
+    "category": "design",
+    "liveDemo": "https://www.behance.net/gallery/180336779/study-in-Canada",
+    "codeLink": "link_2"
+  },
+  {
+    "id ": 9,
+    "image": "https://i.ibb.co/cLZqQ87/malay.jpg",
+    "title": "Study In Malaysia",
+    "category": "design",
+    "liveDemo": "https://www.behance.net/gallery/180336937/Study-In-Malaysia",
+    "codeLink": "link_2"
+  },
+  {
+    "id ": 11,
+    "image": "https://i.ibb.co/qCWbZHs/2047365-01.png",
+    "title": "Nikahnama",
+    "category": "design",
+    "liveDemo": "https://www.behance.net/gallery/180338273/Nikahnama",
+    "codeLink": "link_2"
+  },
+  {
+    "id ": 12,
+    "image": "https://i.ibb.co/MsFSqxd/nobo.png",
+    "title": "Bangla New Year",
+    "category": "design",
+    "liveDemo": "https://www.behance.net/gallery/180340719/Bengali-New-Year",
+    "codeLink": "link_2"
+  },
+  {
+    "id ": 13,
+    "image": "https://i.ibb.co/4RW0B9S/20221008-222209.png",
+    "title": "Salwat",
+    "category": "design",
+    "liveDemo": "https://www.behance.net/gallery/180343247/Salwat",
+    "codeLink": "link_2"
+  }
 ]

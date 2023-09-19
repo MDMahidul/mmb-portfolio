@@ -69,7 +69,11 @@ const Contact = () => {
                   mmbmahidul
                 </a>
               </span>
-              <a href="" className="contact_button flex items-center">
+              <a
+                target="__blank"
+                href="https://m.me/mmbmahidul.007"
+                className="contact_button flex items-center"
+              >
                 Write me{" "}
                 <BsArrowRightShort className="contact_button-icon"></BsArrowRightShort>
               </a>
@@ -87,6 +91,7 @@ const Contact = () => {
                 id=""
                 className="contact_form-input"
                 placeholder="Enter your name"
+                required
               />
             </div>
             <div className="contact_form-div">
@@ -97,6 +102,7 @@ const Contact = () => {
                 id=""
                 className="contact_form-input"
                 placeholder="Enter your email"
+                required
               />
             </div>
             <div className="contact_form-div contact_form-area">
@@ -107,6 +113,7 @@ const Contact = () => {
                 cols="30"
                 rows="10"
                 className="contact_form-input"
+                required
               ></textarea>
             </div>
             <input

@@ -10,7 +10,7 @@ const Frontend = () => {
               <SiHtml5 className="skills_icon"></SiHtml5>
               <div>
                 <h3 className="skills_name">HTML</h3>
-                <span className="skills_level">Basic</span>
+                <span className="skills_level">Intermediate</span>
               </div>
             </div>
             <div className="skills_data">
@@ -23,7 +23,7 @@ const Frontend = () => {
             <div className="skills_data">
               <SiBootstrap className="skills_icon"></SiBootstrap>
               <div>
-                <h3 className="skills_name">Bootstrap </h3>
+                <h3 className="skills_name">Bootstrap</h3>
                 <span className="skills_level">Intermediate</span>
               </div>
             </div>

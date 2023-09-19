@@ -15,7 +15,7 @@ const Sidebar = () => {
   const [activeNav,setActiveNav] = useState("#home")
     return (
       <>
-        <aside className={toggle ? "aside show-menu" : "aside"} data-aos="fade-right">
+        <aside className={toggle ? "aside show-menu" : "aside"} >
           <a href="#" className="nav_logo">
             <img src={logo} alt="" />
           </a>

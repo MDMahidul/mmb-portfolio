@@ -32,7 +32,7 @@
     opacity: 0;
  }
  .work_card:hover .work_mask{
-    opacity: 0.9;
+    opacity: 0.7;
  }
  .work_category{
     color: #fff;
@@ -92,6 +92,27 @@
     color: var(--first-color);
  }
 
+.image-container {
+  width: 320px; /* Adjust the width as needed */
+  height: 220px; /* Adjust the height as needed */
+  overflow: hidden; /* Hide overflow content */
+  position: relative; /* Position for absolute child */
+}
+
+.image-container img {
+  width: 100%; /* Ensure the image fills the container width */
+  height: auto; /* Maintain image aspect ratio */
+  position: absolute; /* Position for hover effect */
+  transition: transform 1.5s ease; /* Add smooth transition */
+}
+
+.image-container:hover img {
+  transform: translateY(-85%); /* Scroll the image up on hover */
+}
+.image-design{
+    width: 320px; /* Adjust the width as needed */
+  height: 220px;
+}
  @media screen and (max-width: 1024px){
     .work_filters{
         justify-content: center;
