@@ -1,5 +1,6 @@
 import './Sidebar.css'
 import logo from '../../assets/m_logo.svg';
+import mlogo from '../../assets/mlogo.png';
 import { AiOutlineHome, AiOutlineMenu } from "react-icons/ai";
 import { BiUserCircle } from "react-icons/bi";
 import { HiOutlineBriefcase } from "react-icons/hi";
@@ -17,7 +18,7 @@ const Sidebar = () => {
       <>
         <aside className={toggle ? "aside show-menu" : "aside"} >
           <a href="#" className="nav_logo">
-            <img src={logo} alt="" />
+            <img className='' src={mlogo} alt="" />
           </a>
 
           <nav className="nav">

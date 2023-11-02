@@ -5,6 +5,9 @@ import { FaRegCalendarAlt } from "react-icons/fa";
 import { useState } from 'react';
 import { useEffect } from 'react';
 import AOS from "aos";
+import SectionTitle from '../../components/SectionTitle/SectionTitle';
+import FadeInUpAnimation from '../../components/FadeInUpAnimation/FadeInUpAnimation';
+import Reveal from '../../components/Reveal/Reveal';
 
 const Qualification = () => {
      const [toggleState, setToggleState] = useState(1);
@@ -22,31 +25,35 @@ const Qualification = () => {
 
     return (
       <section className="container section qualification" id="qualification">
-        <h2 className="section_title">Qualification</h2>
+        <SectionTitle heading={"Qualification"}></SectionTitle>
         <div className="qualification_container">
           <div className="qualification_tabs flex justify-center mb-8">
-            <div
-              className={
-                toggleState === 1
-                  ? "qualification_button button_flex qualification_active flex items-center"
-                  : "qualification_button button_flex flex items-center"
-              }
-              onClick={() => toggleTab(1)}
-            >
-              <LuGraduationCap className="qualification_icon"></LuGraduationCap>
-              Education
-            </div>
-            <div
-              className={
-                toggleState === 2
-                  ? "qualification_button button_flex qualification_active flex items-center"
-                  : "qualification_button button_flex flex items-center"
-              }
-              onClick={() => toggleTab(2)}
-            >
-              <HiOutlineBriefcase className="qualification_icon"></HiOutlineBriefcase>
-              Experience
-            </div>
+            <Reveal>
+              <div
+                className={
+                  toggleState === 1
+                    ? "qualification_button button_flex qualification_active flex items-center"
+                    : "qualification_button button_flex flex items-center"
+                }
+                onClick={() => toggleTab(1)}
+              >
+                <LuGraduationCap className="qualification_icon"></LuGraduationCap>
+                Education
+              </div>
+            </Reveal>
+            <Reveal>
+              <div
+                className={
+                  toggleState === 2
+                    ? "qualification_button button_flex qualification_active flex items-center"
+                    : "qualification_button button_flex flex items-center"
+                }
+                onClick={() => toggleTab(2)}
+              >
+                <HiOutlineBriefcase className="qualification_icon"></HiOutlineBriefcase>
+                Experience
+              </div>
+            </Reveal>
           </div>
           <div className="qualification_sections">
             <div

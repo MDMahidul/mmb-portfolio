@@ -7,7 +7,9 @@ import thumbup from '../../assets/thumbup.png';
 import glassesimoji from "../../assets/glassesimoji.png";
 import com from "../../assets/com.png";
 import { motion } from "framer-motion";
-import FloatingDiv from '../FloatingDiv/FloatingDiv';
+import FloatingDiv from '../../components/FloatingDiv/FloatingDiv';
+import Reveal from '../../components/Reveal/Reveal';
+import FadeInUpAnimation from '../../components/FadeInUpAnimation/FadeInUpAnimation';
 
 
 const Home = () => {
@@ -18,15 +20,24 @@ const Home = () => {
     <section className="container home" id="home">
       <div className="intro text-center flex flex-col items-center">
         <div className="text-center">
-          <img src={mahi} alt="" className="home_img" data-aos="zoom-in" />
+          <img src={mahi} alt="" loading='lazy' className="home_img" data-aos="zoom-in" />
         </div>
-        <h1 className="home_name">MD. Mahidul Islam</h1>
-        <span className="home_education">I'm Full-Stack Developer</span>
-        <HeaderSocials></HeaderSocials>
-        <a href="#contact" className="my-btn">
-          Hire Me
-        </a>
-        <ScrollDown></ScrollDown>
+        <Reveal>
+          <h1 className="home_name">MD. Mahidul Islam</h1>
+        </Reveal>
+        <Reveal>
+          {" "}
+          <span className="home_education">I'm Full-Stack Developer</span>
+        </Reveal>
+        <FadeInUpAnimation>
+          <HeaderSocials></HeaderSocials>
+        </FadeInUpAnimation>
+        <FadeInUpAnimation>
+          <a href="#contact" className="my-btn">
+            Hire Me
+          </a>
+        </FadeInUpAnimation>
+          <ScrollDown></ScrollDown>
       </div>
       <div className="i-right">
         {/* animation */}

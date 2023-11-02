@@ -9,7 +9,7 @@ const ItemCard = ({ item }) => {
   return (
     <div className={`work_card ${cardClass} shadow-lg`}>
       <div className="work_thumbhnail">
-        <img src={image} alt="" />
+        <img loading="lazy" src={image} alt="" />
         <div className="work_mask"></div>
       </div>
       <span className="work_category">{category}</span>

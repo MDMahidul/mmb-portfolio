@@ -1,5 +1,6 @@
 import { SiCss3, SiHtml5, SiBootstrap, SiTailwindcss,SiJavascript,SiReact } from "react-icons/si";
- 
+import {FaSass} from "react-icons/fa"
+import { DiJqueryLogo } from "react-icons/di";
 const Frontend = () => {
     return (
       <div className="skills_content" data-aos="fade-right">
@@ -18,6 +19,14 @@ const Frontend = () => {
               <div>
                 <h3 className="skills_name">CSS</h3>
                 <span className="skills_level">Intermediate</span>
+              </div>
+            </div>
+
+            <div className="skills_data">
+              <FaSass className="skills_icon"></FaSass>
+              <div>
+                <h3 className="skills_name">SASS</h3>
+                <span className="skills_level">Basic</span>
               </div>
             </div>
             <div className="skills_data">
@@ -40,14 +49,21 @@ const Frontend = () => {
               <SiJavascript className="skills_icon"></SiJavascript>
               <div>
                 <h3 className="skills_name">Javascript</h3>
-                <span className="skills_level">Intermediate</span>
+                <span className="skills_level">Basic</span>
+              </div>
+            </div>
+            <div className="skills_data">
+              <DiJqueryLogo className="skills_icon"></DiJqueryLogo>
+              <div>
+                <h3 className="skills_name">Jquery</h3>
+                <span className="skills_level">Basic</span>
               </div>
             </div>
             <div className="skills_data">
               <SiReact className="skills_icon"></SiReact>
               <div>
                 <h3 className="skills_name">React</h3>
-                <span className="skills_level">Intermediate</span>
+                <span className="skills_level">Basic</span>
               </div>
             </div>
           </div>
